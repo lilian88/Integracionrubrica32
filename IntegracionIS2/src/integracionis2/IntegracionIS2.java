@@ -17,6 +17,12 @@ public class IntegracionIS2 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("hola mundo");
+        
+        int galones, opciones;
+        String tipo = null;
+        double diesel=1.50, gasolina=3.00,precio=0;
+        double iva=12,calculoiva = 0;
+        double total = 0,subtotal = 0;
     }
     
 }
