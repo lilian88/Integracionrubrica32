@@ -22,13 +22,13 @@ public class IntegracionIS2 {
         Scanner ingreso=new Scanner(System.in);
         int galones, opciones;
         String tipo = null;
-        double diesel=1.50, gasolina=3.00,precio=0;
+        double diesel=2.00, gasolina=3.00,precio=0;
         double iva=12,calculoiva = 0;
         double total = 0,subtotal = 0;
         
         System.out.println("Gasolinera");
         System.out.println("Bienvenidos a PetroEcuador");
-        System.out.println("1)Gasolina $3.00 \n2)Diesel   $1.50");
+        System.out.println("1)Gasolina $3.00 \n2)Diesel   $2.00");
         opciones=ingreso.nextInt();
         System.out.println("ingrese la cantidad en Galones");
         galones=ingreso.nextInt();
