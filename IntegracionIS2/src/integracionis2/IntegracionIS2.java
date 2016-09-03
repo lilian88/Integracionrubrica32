@@ -32,6 +32,21 @@ public class IntegracionIS2 {
         opciones=ingreso.nextInt();
         System.out.println("ingrese la cantidad en Galones");
         galones=ingreso.nextInt();
+        
+        if (opciones==1) {
+            tipo="Gasolina";
+            precio=gasolina;
+            subtotal=galones*gasolina;
+            calculoiva=subtotal*iva/100;
+            total=subtotal+calculoiva;
+        }
+        if (opciones==2) {
+            tipo="Diesel";
+            precio=diesel;
+            subtotal=galones*diesel;
+            calculoiva=subtotal*iva/100;
+            total=subtotal+calculoiva;
+        }
     }
     
 }
