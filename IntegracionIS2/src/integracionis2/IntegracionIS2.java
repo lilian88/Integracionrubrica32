@@ -47,6 +47,14 @@ public class IntegracionIS2 {
             calculoiva=subtotal*iva/100;
             total=subtotal+calculoiva;
         }
+        System.out.println("*******Factura*******");
+        System.out.println("Combustible :"+tipo);
+        System.out.println("Cantidad    :"+galones);
+        System.out.println("Precio      :"+precio);
+        System.out.println("Subtotal    :"+subtotal);
+        System.out.println("Iva         :"+calculoiva);
+        System.out.println("Total       :"+total);
+        
     }
     
 }
